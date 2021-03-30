@@ -1,0 +1,11 @@
+DEVICE="bond0"
+BOOTPROTO="none"
+BONDING_MASTER=yes
+IPADDR={{ ipaddr }}
+PREFIX=30
+GATEWAY={{ gateway }}
+DNS1=8.8.8.8
+USERCTL=no
+BONDING_OPTS="mode=1 miimon=100 fail_over_mac=1"
+NM_CONTROLLED=no
+ONBOOT="yes"
